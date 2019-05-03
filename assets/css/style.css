@@ -1,0 +1,8 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#char1, #char2, #char3, #cha4 {
+    float: left;
+}
