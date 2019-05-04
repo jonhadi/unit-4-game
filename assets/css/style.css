@@ -5,4 +5,6 @@ img {
 
 #char1, #char2, #char3, #cha4 {
     float: left;
+    border: red;
+    margin: 5px;
 }
