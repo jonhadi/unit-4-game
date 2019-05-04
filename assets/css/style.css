@@ -1,10 +1,80 @@
+body {
+    background-image: url("../images/forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.hide-me {
+    display: none;
+}
+
+h2 {
+    clear: both;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
 img {
     height: 200px;
     width: 200px;
 }
 
-#char1, #char2, #char3, #cha4 {
-    float: left;
-    border: red;
-    margin: 5px;
+#champ {
+    clear:both;
 }
+
+.charCard {
+    float: left;
+    border-style: solid;
+    border-color:rgb(255, 153, 0);
+    border-width: 3px;
+    margin: 5px;
+    background: #ffffff;
+    padding: 10px;
+}
+
+#champCard {
+    float: left;
+    border-style: solid;
+    border-color:rgb(255, 153, 0);
+    border-width: 3px;
+    margin: 5px;
+    background: #ffffff;
+    padding: 10px;
+}
+
+#chumpCard {
+    float: left;
+    border-style: solid;
+    border-color:rgb(255, 153, 0);
+    border-width: 3px;
+    margin: 5px;
+    background: black;
+    padding: 10px;
+}
+
+.enemy-text {
+    color: white;
+}
+
+.enemy {
+    background-color: red;
+    float: left;
+    border-style: solid;
+    border-color:rgb(255, 153, 0);
+    border-width: 3px;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+#defender {
+    background-color: black;
+}
+

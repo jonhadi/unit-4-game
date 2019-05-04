@@ -10,16 +10,40 @@
         <header>
             <h1>Cute RPG</h1>
         </header>
+        <h2 id="intro">Choose you character</h2>
         <div id="character-list">
-            <div><img class="hero" id="char1" src="assets/images/mushroom.png"></div>
-            <div><img class="hero" id="char2" src="assets/images/whale.png"></div>
-            <div><img class="hero" id="char3" src="assets/images/archer.png"></div>
-            <div><img class="hero" id="char4" src="assets/images/dragon.png"></div>
+            <div class="charCard" id="card1">
+                <h3 id="name1">Mushroom</h3>
+                <img class="hero" id="char1" src="assets/images/mushroom.png">
+                <h3 id="hp1">100</h3>
+            </div>
+            <div class="charCard" id="card2">
+                <h3 id="name2">Whale</h3>
+                <img class="hero" id="char2" src="assets/images/whale.png">
+                <h3 id="hp2">250</h3>
+            </div>
+            <div class="charCard" id="card3">
+                <h3 id="name3">Archer</h3>
+                <img class="hero" id="char3" src="assets/images/archer.png">
+                <h3 id="hp3">50</h3>
+            </div>
+            <div class="charCard" id="card4">
+                <h3 id="name4">Dragon</h3>
+                <img class="hero" id="char4" src="assets/images/dragon.png">
+                <h3 id="hp4">25</h3></div> 
+        <!-- Keeping if I want to go back and fill in cards wih javascript
+            <div class="charCard">
+                <h3 class="name"></h3>
+                <img class="hero" src="">
+                <h3 id="hp"></h3>
+            </div> 
+        -->
         </div>
-        <div id="your character"></div> 
+        <div id="champ"><h2>Your Character</h2><div id="your-char"></div></div> 
+        <div id="enemiesATA"><h2>Enemies Avaliable to Attack</h2></div>
+        <h2>Fight Section</h2>
         <button onclick= "attack(champ, chump)">attack</button>
-        <div id="enemiesATA">ENEMIES</div>
-        <div id="defender area"></div>
+        <div id="chump"><h2>Defender</h2></div>
         <div id="champAtk"></div>
         <div id="chumpAtk"></div>
 
