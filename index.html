@@ -7,6 +7,8 @@
         <link red="stylesheet" href="assets/css/reset.css">
     </head>
     <body>
+
+    <div class="page">
         <header>
             <h1>Cute RPG</h1>
         </header>
@@ -39,14 +41,17 @@
             </div> 
         -->
         </div>
-        <div id="champ"><h2>Your Character</h2><div id="your-char"></div></div> 
-        <div id="enemiesATA"><h2>Enemies Avaliable to Attack</h2></div>
+        <h2 class='left'>Your Character</h2>
+        <h2 class='right'>Defender</h2>
+        <div id="champ"></div> 
+        <div id="chump"></div>
         <h2>Fight Section</h2>
         <button onclick= "attack(champ, chump)">attack</button>
-        <div id="chump"><h2>Defender</h2></div>
         <div id="champAtk"></div>
         <div id="chumpAtk"></div>
-
+        <div id="enemiesATA"><h2>Enemies Avaliable to Attack</h2></div>
+        <button id="resetButton" class="hide-me" onclick= "reset()">reset</button>
+    </div>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
